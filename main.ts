@@ -4,19 +4,19 @@ radio.onReceivedNumber(function (receivedNumber) {
     } else if (1 == receivedNumber) {
         wuKong.mecanumRun(wuKong.RunList.Front, 100)
     } else if (2 == receivedNumber) {
-        wuKong.mecanumRun(wuKong.RunList.left, 100)
+        wuKong.mecanumRun(wuKong.RunList.left, 50)
     } else if (3 == receivedNumber) {
-        wuKong.mecanumRun(wuKong.RunList.right, 100)
+        wuKong.mecanumRun(wuKong.RunList.right, 50)
     } else if (4 == receivedNumber) {
         wuKong.mecanumRun(wuKong.RunList.rear, 100)
     } else if (5 == receivedNumber) {
-        wuKong.mecanumRun(wuKong.RunList.LeftFront, 100)
+        wuKong.mecanumRun(wuKong.RunList.LeftFront, 50)
     } else if (6 == receivedNumber) {
-        wuKong.mecanumRun(wuKong.RunList.RightFront, 100)
+        wuKong.mecanumRun(wuKong.RunList.RightFront, 50)
     } else if (7 == receivedNumber) {
-        wuKong.mecanumRun(wuKong.RunList.LeftRear, 100)
+        wuKong.mecanumRun(wuKong.RunList.LeftRear, 50)
     } else if (8 == receivedNumber) {
-        wuKong.mecanumRun(wuKong.RunList.RightRear, 100)
+        wuKong.mecanumRun(wuKong.RunList.RightRear, 50)
     } else if (9 == receivedNumber) {
         wuKong.mecanumRun(wuKong.RunList.stop, 0)
     } else if (10 == receivedNumber) {
@@ -24,9 +24,9 @@ radio.onReceivedNumber(function (receivedNumber) {
     } else if (11 == receivedNumber) {
         wuKong.mecanumDrift(wuKong.TurnList.Right)
     } else if (12 == receivedNumber) {
-        wuKong.mecanumSpin(wuKong.TurnList.Left, 100)
+        wuKong.mecanumSpin(wuKong.TurnList.Left, 50)
     } else if (13 == receivedNumber) {
-        wuKong.mecanumSpin(wuKong.TurnList.Right, 100)
+        wuKong.mecanumSpin(wuKong.TurnList.Right, 50)
     } else {
         basic.showIcon(IconNames.No)
     }
@@ -39,5 +39,5 @@ wuKong.ServoList.S2,
 wuKong.ServoList.S3,
 wuKong.ServoList.S4
 )
-basic.showIcon(IconNames.Tortoise)
+basic.showIcon(IconNames.Scissors)
 wuKong.setLightMode(wuKong.LightMode.BREATH)
