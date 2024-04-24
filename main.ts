@@ -34,10 +34,10 @@ radio.onReceivedNumber(function (receivedNumber) {
 radio.setGroup(1)
 radio.setFrequencyBand(16)
 wuKong.mecanumWheel(
-wuKong.ServoList.S1,
+wuKong.ServoList.S0,
 wuKong.ServoList.S2,
-wuKong.ServoList.S3,
-wuKong.ServoList.S4
+wuKong.ServoList.S1,
+wuKong.ServoList.S3
 )
 basic.showIcon(IconNames.Asleep)
 wuKong.setLightMode(wuKong.LightMode.OFF)
